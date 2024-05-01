@@ -15,6 +15,7 @@ namespace DDD.Domain.Interfaces
         void Atualizar(Cliente cliente);
         void Deleter(Cliente cliente);
 
+        // Obsoleto
         Cliente LerPorNome(int id);
     }
 }
