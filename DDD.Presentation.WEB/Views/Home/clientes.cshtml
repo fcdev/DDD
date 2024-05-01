@@ -1,0 +1,23 @@
+﻿@model IEnumerable<DDD.Application.Models.ClienteVM>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ClienteId</th>
+        <th>Nome completo</th>
+        <th>Email</th>
+        <th>DataCadastro</th>
+        <th>Ativo</th>
+    </tr>
+    @foreach (var item in Model.ToList())
+    {
+        <tr>
+            <td>@item.ClienteId</td>
+            <td>@String.Concat(item.Nome, " ", item.Sobrenome)</td>
+            <td>@item.Email</td>
+            <td>@item.DataCadastro</td>
+            <td>@item.Ativo</td>
+        </tr>
+    }
+</table>
+
+
