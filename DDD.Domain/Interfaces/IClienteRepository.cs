@@ -15,7 +15,7 @@ namespace DDD.Domain.Interfaces
         void Atualizar(Cliente cliente);
         void Deleter(Cliente cliente);
 
-        // Obsoleto
+        // Obsoleto - Merge Master
         Cliente LerPorNome(int id);
     }
 }
