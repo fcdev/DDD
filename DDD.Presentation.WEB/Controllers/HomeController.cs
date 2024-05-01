@@ -1,6 +1,7 @@
 using DDD.Application.Interfaces;
 using DDD.Presentation.WEB.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 
 namespace DDD.Presentation.WEB.Controllers

@@ -1,7 +1,6 @@
 ﻿using DDD.Application.Interfaces;
 using DDD.Application.Mappings;
 using DDD.Application.Models;
-using DDD.Domain.Entities;
 using DDD.Domain.Interfaces;
 
 namespace DDD.Application.Services

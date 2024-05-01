@@ -1,4 +1,6 @@
 ﻿using DDD.Application.Models;
+using DDD.Domain.Entities;
+using DDD.Domain.Interfaces;
 
 namespace DDD.Application.Interfaces
 {
