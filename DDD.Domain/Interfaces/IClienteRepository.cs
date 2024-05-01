@@ -14,7 +14,5 @@ namespace DDD.Domain.Interfaces
         IEnumerable<Cliente> LerTodos();
         void Atualizar(Cliente cliente);
         void Deleter(Cliente cliente);
-
-        Cliente LerPorNome(int id);
     }
 }
